@@ -7,6 +7,6 @@ ______________________________________________________
 
 Circuit of the LM78-implemented Voltage Regulator (Constant)
 
-When choosing a fixed voltage regulator we are only looking for a regulator that is not going to change its output. This means that no matter the input, the output will remain as a set fixed voltage. For this case we chose the LM78L05ACZ voltage regulator. It does not require any resistors since after all, the goal is to keep the voltage fixed on the output. The shunt capacitors will remain and as the datasheet stated, and it will be 0.1uF each. Each capacitor will be at both ends of the regulator. One that is bypass and the other is bullk.
+When choosing a fixed voltage regulator we are only looking for a regulator that is not going to change its output. This means that no matter the input, the output will remain as a set fixed voltage. For this case we chose the LM78L05ACZ voltage regulator. It does not require any resistors since after all, the goal is to keep the voltage fixed on the output. The shunt capacitors will remain and as the datasheet stated, and it will be 0.33uF and 0.1uF respectivly. Each capacitor will be at both ends of the regulator. One that is bypass and the other is bullk respectivly.
 
 https://www.mouser.com/datasheet/2/308/1/MC78L06A_D-2316031.pdf
